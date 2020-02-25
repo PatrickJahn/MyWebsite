@@ -1,0 +1,41 @@
+.navbar {
+
+    float: right;
+margin-right: 20px;
+margin-top: 20px;
+}
+
+.navItem {
+    padding: 4px;
+    margin-right: 25px;
+    color: white;
+text-decoration: none;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+    .navItem:hover {
+    color:  #515151;
+    }
+
+ #Chosen {
+ color: #515151;
+
+}
+
+#Contact {
+    color:coral;
+    transition: 0.4s ease;
+   }
+
+   #Contact:hover {
+    color:rgba(255, 127, 80, 0.548);
+   
+   }
+
+   
+
