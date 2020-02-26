@@ -39,3 +39,46 @@ text-decoration: none;
 
    
 
+
+
+
+
+   .tabbar {
+    display: none;
+      position: fixed;
+
+      bottom: 0;
+      width: 100%;
+  background-color: #1F1F1F;
+  padding: 20px;
+
+    }
+    .tabItem{
+    
+    padding: 5px;
+      
+      color: white;
+  text-decoration: none;
+      font-size: large;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 900;
+
+      cursor: pointer;
+  
+    }
+
+
+    @media (max-width: 660px) {
+      
+      
+        .tabbar {
+       display: flex;
+       justify-content: space-evenly;
+        }
+         
+      .navbar {
+        display: none;
+      }
+        
+      }
+      
