@@ -22,37 +22,13 @@
     <a class="navItem" id="Contact" > Contact </a>
     </div>
     <br>
-<h1 id="h"> My Projects</h1>
+<h1 id="h"> My Projects - 
+    <a id="webButton" onclick="changeBoard(document.getElementById('webButton'));"> Web </a> 
+    <a id="iosButton" onclick="changeBoard(document.getElementById('iosButton'));">Ios</a> 
+    <a id="etcButton" onclick="changeBoard(document.getElementById('etcButton'));">Etc.</a></h1>
 
 <h2 id="hh"> In the making:</h2>
-<div class="board">
-
-<div class ="boardItem" onclick="location.href='/Cupcake/index.html';">
-    <img src="CupcakeProject.png">
-    
-   
-    <a> Show </a>
-    <p>Cupcake Project</p> 
-
-</div>
-
-<div class ="boardItem" onclick="location.href='/Cupcake/index.html';">
-    <img src="CupcakeProject.png">
-    
-   
-    <a> Show </a>
-    <p>Cupcake Project</p> 
-
-</div>
-
-<div class ="boardItem" onclick="location.href='/Cupcake/index.html';">
-    <img src="CupcakeProject.png">
-    
-   
-    <a> Show </a>
-    <p>Cupcake Project</p> 
-
-</div>
+<div class="webBoard">
 
 <div class ="boardItem" onclick="location.href='/Cupcake/index.html';">
     <img src="CupcakeProject.png">
@@ -64,6 +40,21 @@
 </div>
 
 
+
+
+</div>
+
+
+<div class="iosBoard" style="display: none;"> 
+
+    <div class ="boardItem" onclick="location.href='/Cupcake/index.html';">
+    <img src="/MyWebsite/Images/StronqerIcon.png">
+    
+   
+    <a> Show </a>
+    <p>Stronqer</p> 
+
+</div>
 </div>
 
 
@@ -73,6 +64,10 @@
     <a class="tabItem" > School </a>
     <a class="tabItem" id="Contact" > Contact </a>
 </div>
+
+
+
+<script src="scripts.js"></script>
 
     </body>
 </html>
