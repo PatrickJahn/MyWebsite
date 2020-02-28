@@ -1,0 +1,55 @@
+body {
+
+
+        margin: 0px;
+        padding: 0px;
+        background-color: #1F1F1F;
+
+    }
+
+    #me {
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 20%;
+        box-shadow: 0px 0px 2px aliceblue;
+        display: block;
+
+    }
+
+
+
+#name {
+  
+    display: inline-block;
+}
+
+
+
+
+
+
+
+    /* BACKGROUND STUFF */ 
+
+#cv {
+    color: #222222;
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    position: fixed;
+    top: 40%;
+left: 50%;
+    transform: translate(-50%,-50%);
+      z-index: -1;
+     font-size: 21vW;
+    }
+
+    #oval {
+        z-index: -1;
+        width: 25%;
+            margin-top: -15%;
+            margin-left: -10%;
+            position: fixed;
+            
+        }

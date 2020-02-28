@@ -74,7 +74,6 @@ text-decoration: none;
       
         .tabbar {
        display: flex;
-        
        justify-content: space-evenly;
         }
          
