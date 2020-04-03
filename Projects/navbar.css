@@ -18,8 +18,20 @@ text-decoration: none;
     transition: 0.5s ease;
 }
 
-    .navItem:hover {
-    color:  #515151;
+
+.navItem::before{
+
+content: "";
+width: 0px;
+height: 2px;
+left: 50%;
+right: 50%;
+transform: translate(-50%,-50%);
+
+
+}
+    .navItem::before:hover {
+    width: 100%;
     }
 
  #Chosen {
